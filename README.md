@@ -1,23 +1,79 @@
-# Online Job Portal Project
-Online Job Portal project is web application built using PHP, MySQL as backend and HTML JavaScript &amp; Bootstrap as Frontend technologies. Note that this software is developed as an academic project. <br/>
-<b>A newer version (Work in progress) written using Express, GraphQL and Mongo can be obtained here: https://github.com/Sreelal-c/JobBoard-Backend</b>
+# Online Job Portal
 
-<h3>Author:</h3> 
-Sreelal C
+This is a simple online job portal built with HTML, CSS, JavaScript, PHP, and SQL. The website allows users to sign up, log in, search for jobs, and apply for positions.
 
-<h2> License </h2>
-Online-Job-Portal - A web application built on PHP HTML & javascript</br>
-Copyright (C) 2016  Sreelal C
+## Project Structure
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+```
+Online_Job_Portal/
+├── COPYING
+├── LICENSE
+├── README.md
+├── config.php
+├── forgotpass.php
+├── home_search.php
+├── index.php
+├── login.php
+├── logout.php
+├── process_login.php
+├── upload.php
+```
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+## Features
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+- User authentication (login and signup)
+- Password recovery
+- Job search functionality
+- Job application process
+
+## Database Schema
+
+The database contains the following tables:
+
+- `users`: Stores user information
+- `jobs`: Stores job details
+- `applications`: Stores job applications
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/Online_Job_Portal.git
+   cd Online_Job_Portal
+   ```
+
+2. **Database Setup:**
+   
+   - Create a database and import the schema provided above.
+   - Update the database connection details in `config.php`.
+
+3. **Run the Project:**
+
+   - Ensure you have a local server set up (like XAMPP or WAMP).
+   - Place the project files in the server's root directory.
+   - Access the project through your web browser (e.g., `http://localhost/Online_Job_Portal/`).
+
+## Usage
+
+1. **Login or Signup:**
+   - Navigate to the login page and either log in with existing credentials or sign up for a new account.
+
+2. **Forgot Password:**
+   - Use the forgot password functionality to recover your account.
+
+3. **Browse Jobs:**
+   - Once logged in, you can browse and search for jobs.
+
+4. **Apply for Jobs:**
+   - Apply for jobs directly through the portal.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+```
+
