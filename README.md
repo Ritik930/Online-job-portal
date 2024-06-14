@@ -6,9 +6,6 @@ This is a simple online job portal built with HTML, CSS, JavaScript, PHP, and SQ
 
 ```
 Online_Job_Portal/
-├── COPYING
-├── LICENSE
-├── README.md
 ├── config.php
 ├── forgotpass.php
 ├── home_search.php
@@ -39,7 +36,7 @@ The database contains the following tables:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/Online_Job_Portal.git
+   git clone https://github.com/Ritik930/Online-job-portal/tree/main
    cd Online_Job_Portal
    ```
 
@@ -52,7 +49,7 @@ The database contains the following tables:
 
    - Ensure you have a local server set up (like XAMPP or WAMP).
    - Place the project files in the server's root directory.
-   - Access the project through your web browser (e.g., `http://localhost/Online_Job_Portal/`).
+   - Access the project through your web browser (e.g., `https://github.com/Ritik930/Online-job-portal/tree/main`).
 
 ## Usage
 
